@@ -1,21 +1,51 @@
 .container {
-  width: 600px;
-  height: 600px;
-  border: 1px;
+  width: 1200px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px blue dotted;
 }
+
+
 
 .flex {
   display: flex;
   flex-direction: row;
+  justify-content: space-between; 
+  /*flex-wrap: wrap;*/
+  /*flex-wrap: nowrap;*/
+  /*flex-wrap: wrap-reverse;*/
+  /*flex-flow: row nowrap;*/
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /*justify-content: flex-start;*/
+    /*align-items: center;*/
+    /*align-items: flex-start; */
+    /*align-items: flex-end;*/
+    /*align-content: flex-start;*/
+    /*align-content: flex end:*/
+    /*align-content: center; */
+    /*align-content: stretch-end;*/
 }
 
-.child{
-  background: tomato;
-  margin: 5px;
-  flex-basis: 100px;
-  color: white;
-  font-weight: bold;
-  line-height: 100px;
-  text-align: centre;
-  font-size: 20px;
+.logo {
+  flex-basis: 120px;
+  height: 40px;
+  flex-shrink: 0;
+  border: 1px red dotted;
+}
+
+
+.nav {
+  flex-basis: 600px;
+  height: 40px;
+  border: 1px green dotted;
+}
+
+.link {
+  flex-basis: 80px;
+  height: 40px;
+  border: 1px yellow dotted;
 }
