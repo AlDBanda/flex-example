@@ -1,0 +1,21 @@
+.container {
+  width: 600px;
+  height: 600px;
+  border: 1px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.child{
+  background: tomato;
+  margin: 5px;
+  flex-basis: 100px;
+  color: white;
+  font-weight: bold;
+  line-height: 100px;
+  text-align: centre;
+  font-size: 20px;
+}
